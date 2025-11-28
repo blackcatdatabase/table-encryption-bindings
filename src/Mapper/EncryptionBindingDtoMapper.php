@@ -17,7 +17,7 @@ use BlackCat\Database\Support\DtoHydrator;
 final class EncryptionBindingDtoMapper
 {
     /** @var array<string,string> Column -> DTO property */
-    private const COL_TO_PROP = [ 'entity_table' => 'entityTable', 'entity_pk' => 'entityPk', 'field_name' => 'fieldName', 'field_name_norm' => 'fieldNameNorm', 'key_wrapper_id' => 'keyWrapperId', 'created_at' => 'createdAt' ];
+    private const COL_TO_PROP = [ 'id' => 'id', 'entity_table' => 'entityTable', 'entity_pk' => 'entityPk', 'field_name' => 'fieldName', 'field_name_norm' => 'fieldNameNorm', 'key_wrapper_id' => 'keyWrapperId', 'created_at' => 'createdAt' ];
 
     /** @var string[] */
     private const BOOL_COLS   = [];
