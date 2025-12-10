@@ -5,12 +5,12 @@ Bindings assigning specific key wrappers to encrypted entity fields.
 ## Columns
 | Column | Type | Null | Default | Description |
 | --- | --- | --- | --- | --- |
-| created_at | mysql: DATETIME(6) / postgres: TIMESTAMPTZ(6) | NO | CURRENT_TIMESTAMP(6) | Creation timestamp (UTC). |
-| entity_pk | VARCHAR(64) | NO |  | Primary key value of the encrypted row. |
-| entity_table | VARCHAR(64) | NO |  | Table name containing encrypted data. |
-| field_name | VARCHAR(64) | YES |  | Encrypted column name; NULL = whole row binding. |
 | id | BIGINT | NO |  | Surrogate primary key. |
+| entity_table | VARCHAR(64) | NO |  | Table name containing encrypted data. |
+| entity_pk | VARCHAR(64) | NO |  | Primary key value of the encrypted row. |
+| field_name | VARCHAR(64) | YES |  | Encrypted column name; NULL = whole row binding. |
 | key_wrapper_id | BIGINT | NO |  | Assigned key wrapper (FK key_wrappers.id). |
+| created_at | mysql: DATETIME(6) / postgres: TIMESTAMPTZ(6) | NO | CURRENT_TIMESTAMP(6) | Creation timestamp (UTC). |
 
 ## Engine Details
 
