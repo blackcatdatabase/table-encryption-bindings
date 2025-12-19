@@ -1,0 +1,29 @@
+{
+  "tables": {
+    "encryption_bindings": {
+      "columns": {
+        "created_at": {
+          "strategy": "passthrough"
+        },
+        "entity_pk": {
+          "strategy": "passthrough"
+        },
+        "entity_table": {
+          "strategy": "passthrough"
+        },
+        "field_name": {
+          "strategy": "passthrough"
+        },
+        "field_name_norm": {
+          "strategy": "passthrough"
+        },
+        "id": {
+          "strategy": "passthrough"
+        },
+        "key_wrapper_id": {
+          "strategy": "passthrough"
+        }
+      }
+    }
+  }
+}
